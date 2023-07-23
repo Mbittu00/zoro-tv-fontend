@@ -1,0 +1,33 @@
+.Episode{
+  font-family: 'Raleway', sans-serif;
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+}.ep{
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}.eph{
+display: flex;  
+gap: 10px;
+flex-wrap: wrap;
+padding-left: 15px;
+padding-right: 15px;
+}.title{
+  margin-left: 15px;
+}.acctive{
+  background: white !important;
+  color: black !important;
+}

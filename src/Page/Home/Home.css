@@ -1,0 +1,48 @@
+.Home{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 340px;
+  height: 200px;
+  justify-content: space-around;
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}.main>span{
+  text-transform: capitalize;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}.main>input{
+  border: 1px solid white;
+  background: transparent;
+  border-radius: 14px;
+  outline: none;
+  height: 35px;
+  width: 250px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  padding-left: 10px;
+}.main>input::placeholder{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-transform: capitalize;
+}.main>button{
+  width: 150px;
+  height: 35px;
+  border: 1px solid white;
+  border-radius: 14px;
+  background: transparent;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}

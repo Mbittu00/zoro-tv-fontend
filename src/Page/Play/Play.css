@@ -1,0 +1,21 @@
+.loading{
+ min-height: 100vh;
+ width: 100vw;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}.load{
+  border: 2px solid white; 
+  width: 200px;
+  height: 200px;
+  animation: spin 1s infinite;
+}
+@keyframes spin{
+  from{
+  transform: rotate(0deg);  
+  }to{
+    transform: rotate(360deg);
+    border-radius: 100px;
+    
+  }
+}
