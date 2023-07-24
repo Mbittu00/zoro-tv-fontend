@@ -11,7 +11,6 @@
   height: 30px;
   border-radius: 8px;
   display: flex;
-  gap: 20px;
   align-items: center;
   justify-content: center;
     /* From https://css.glass */
@@ -26,9 +25,10 @@ gap: 10px;
 flex-wrap: wrap;
 padding-left: 15px;
 padding-right: 15px;
+width: 100vw;
 }.title{
   margin-left: 15px;
-  margin-top: 20px;
+  margin-top: 5px;
 }.acctive{
   background: white !important;
   color: black !important;
