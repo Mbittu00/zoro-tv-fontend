@@ -1,9 +1,10 @@
 .frame{
   width: 70vw;
-  height: 81vh;
+  height: 250px;
   border-radius: 14px;
   object-fit:cover;
   margin-top: 30px;
+  background: pink;
 }.Video{
   display: flex;
   align-items: center;

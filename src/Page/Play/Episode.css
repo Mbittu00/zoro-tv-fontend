@@ -25,7 +25,7 @@ gap: 10px;
 flex-wrap: wrap;
 padding-left: 15px;
 padding-right: 15px;
-width: 100vw;
+width: 100%;
 }.title{
   margin-left: 15px;
   margin-top: 5px;
