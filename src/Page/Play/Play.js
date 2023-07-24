@@ -13,7 +13,6 @@ useEffect(()=>{
   let {data}=await axios.get(
 `https://zoro-tv.vercel.app/${id}`
     )
-    
     setAnime(data.reverse())
 })()  
 },[])
