@@ -7,7 +7,7 @@ import './Episode.css'
   return (
    <div className="Episode">
     <span className='title'>
-    {anime[episodeNum]?.title} ({anime[episodeNum]?.type})
+   {anime.title}
     </span>
     <div className='eph'>
  {

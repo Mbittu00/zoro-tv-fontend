@@ -11,9 +11,10 @@ let {id}=useParams()
 useEffect(()=>{
 (async()=>{
   let {data}=await axios.get(
-`http://localhost:8080/${id}`
+`https://zoro-tv.vercel.app/${id}`
     )
-    setAnime(data)
+    
+    setAnime(data.reverse())
 })()  
 },[])
 useEffect(()=>{

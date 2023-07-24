@@ -1,13 +1,13 @@
 .frame{
   width: 98vw;
-  height: 200px;
+  height: 250px;
   border-radius: 14px;
-  object-fit:fill;
+  object-fit:cover;
 }.Video{
   display: flex;
   align-items: center;
   justify-content: center;
   
 }video{
- object-fit:fill; 
+ object-fit:cover; 
 }

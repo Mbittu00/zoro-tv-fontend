@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div className="Home">
       <div className="main">
-      <span>enter zoro anime id to watch</span>
+      <span>enter animension anime id to watch</span>
         <input type="text" className="input"
         placeholder='anime id'
         onChange={(e)=>{setId(e.target.value)}}/>
